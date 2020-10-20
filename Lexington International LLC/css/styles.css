@@ -67,7 +67,6 @@ nav img {
     border-right: 2.5px solid #00a988;
     margin-top: 0.8%;
     margin-bottom: 0.8%;
-    
 }
 
 .text-card{
@@ -120,6 +119,7 @@ nav img {
     width: 175px;
     background-color: #00a988;
     border-radius: 0px;
+    border-style:none;
 }
 
 #imagen {
@@ -133,4 +133,8 @@ nav img {
 
 .imagenCloud {
     padding-right: 150px;
+}
+
+.card-group b > p {
+    font-size: large;
 }
