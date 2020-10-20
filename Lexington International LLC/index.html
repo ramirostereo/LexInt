@@ -50,12 +50,12 @@
 
         <section id="home">
                 <div class="row d-flex align-items-center col-12 text-left">
-                    <div id="textoMain" class="col-6">
+                    <div id="textoMain" class="col-sm-6 col-md-6 col-xl-6">
                         <h2>Lexington international LLC</h2>
                         <h6>Lexington international Cloud is a on-cloud services suite which includes use of virtual servers, blueprints, network, and application services in a multi-tenant service data centre environment.Lexington international provides the infrastructure, including space and power, compute resources, storage resources, Operating system based Virtualization, networking resources and use of a Console and API manager for provisioning and management.</h6>
                     </div>
-                    <div  class="col-6">
-                        <img id="imagenMain" src="./img/jpg/OAYTDM0.jpg">
+                    <div class="col-sm-6 col-md-6 col-xl-6">
+                        <img class="img-fluid" src="./img/jpg/OAYTDM0.jpg">
                     </div>
                 </div>
         </section>
@@ -216,32 +216,29 @@
 <!-- DATA CENTER -->
 <section id="dataCenter">
     <div class="container">
-        <div >     
-            <img class="imageMain"  src="./img/png/DataCenter.png" >
+        <div class="text-center">     
+            <img class="img-fluid" src="./img/png/DataCenter.png" >
         </div>
         <br>
         <div class="text-center">
             <h2 class="description">Data Center</h2>
         </div>
         <br><br>
-        <div class="row ">
-            <div class="col-2">
-
-            </div>
-            <div class="col-2">
-                <img class="imageSub" src="./img/jpg/lenovo-software-defined-storage-family.png" >
+        <div class="row text-center">            
+            <div class="col-sm-3 col-md-3 col-xl-3">
+                <img class="img-fluid" src="./img/jpg/lenovo-software-defined-storage-family.png" >
                 <p class="description">Software Storage</p>
             </div>
-            <div class="col-2">
-                <img class="imageSub" src="./img/jpg/lenovo-storage-area-network-family.png" >
+            <div class="col-sm-3 col-md-3 col-xl-3">
+                <img class="img-fluid" src="./img/jpg/lenovo-storage-area-network-family.png" >
                 <p class="description">San Storage</p>
             </div>
-            <div class="col-2">
-                <img class="imageSub" src="./img/jpg/lenovo-servers-storage-lenovostorage-n4610.png">
+            <div class="col-sm-3 col-md-3 col-xl-3">
+                <img class="img-fluid" src="./img/jpg/lenovo-servers-storage-lenovostorage-n4610.png">
                 <p class="description">Nas Storage</p>
             </div>
-            <div class="col-2">
-                <img class="imageSub" src="./img/jpg/lenovo-storage-tape-family.png">
+            <div class="col-sm-3 col-md-3 col-xl-3">
+                <img class="img-fluid" src="./img/jpg/lenovo-storage-tape-family.png">
                 <p class="description">Tape Storage & Backup</p>
             </div>
 
@@ -254,8 +251,8 @@
       <section id="platforms">
         <div class="container">
             
-                <div>     
-                    <img class="imageMain" src="./img/png/Platform.png">
+                <div class="text-center">     
+                    <img class="img-fluid" src="./img/png/Platform.png">
                 </div>
                 <div class="text-center">
                     <h2>Platform</h2>
@@ -358,7 +355,7 @@
                 <section id="services">
                     <div class="container">
                         <div class="row">
-                            <div class="col-12 mt-5 mb-5 text-left">
+                            <div class="col-sm-12 col-md-12 col-xl-12 mt-5 mb-5 text-left">
                                     <h2>Services</h2>
                                 <div class="mt-5 text-left">
                                     <ul>
@@ -427,7 +424,7 @@
                         </div>
                         <form  data-toggle="validator">
                         <div class="row">
-                                  <div class="col-6">
+                                  <div class="col-sm-6 col-md-6 col-lg-6">
                                     <div class="form-group">
                                         <input type="text" class="form-control" id="name" placeholder="Your name" aria-describedby="emailHelp" data-error="Please complete this mandatory field." data-pattern-error="This name is not valid." required>
                                     </div>
@@ -438,17 +435,18 @@
                                         <input type="text" class="form-control" id="company" placeholder="Your company" aria-describedby="emailHelp" data-error="Please complete this mandatory field." data-pattern-error="This company is not valid." required>
                                     </div>
                                   </div>
-                                  <div class="col-6">
+                                  <div class="col-sm-6 col-md-6 col-lg-6">
                                     <div class="form-group">
                                         <textarea type="text" class="form-control" id="comments" placeholder="Your message" aria-describedby="emailHelp" data-error="Please complete this mandatory field." data-pattern-error="This message is not valid." required></textarea>
                                     </div>
                                 </div>
                             </div>
-                                         <div class="row">
-                                            <div class="offset-10">
-                                                <button id="submit" type="submit" class="btn btn-primary mb-2">Send</button>        
-                                            </div>
-                                          </div>
+                            <div class="row">
+                                <!--HACER RESPONSIVE EL BOTON CON MEDIA QUERYS-->
+                                <div class="col-sm-6 col-md-6 col-lg-6">
+                                    <button id="submit" type="submit" class="btn btn-primary mb-2">Send</button>        
+                                </div>
+                            </div>
                             </form>
         
                             <hr color="white">

@@ -49,15 +49,6 @@ nav img {
     color:#014e7a;
 }
 
-#imagenMain{    
-    position: relative;
-    width: 107%;
-    height: 120%;
-}
-
-#imagenMain img{
-    height: auto;
-}
 
 #cloud {
     background-color: #014e7a;
@@ -85,14 +76,6 @@ nav img {
 }
 
 
-.imageMain {
-    width: 250px;
-    position: relative;
-    left: 420px;
-    top: 15px;
-    bottom: 40px;
-}
-
 #platforms {
     background-color: #dcfff8;
 }
@@ -105,11 +88,7 @@ nav img {
     color:white;
     background-color: #027fc7;
 }
-.imageSub {
-    width: 150px;
-    align-items: flex-end;
-    
-}
+
 
 #contact{
     background-color: #014e7a;
