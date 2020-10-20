@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 hr {
     width: 100%;
     background-color: gainsboro;
@@ -16,18 +20,40 @@ ul {
     }
 
 nav {
-    background-color: white;
-    width: 100%;
-    height: 10%;
-    position: absolute;
     border-color: #00a988;
     border-style: solid;
     border-width: 1px;
 }
 
-nav img {
-    height: 50px;
+
+.lex-logo {
+    width: 204px;
+    height: 48px;
 }
+
+
+.navbar-toggler {
+    border-color: transparent;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    padding-top: 4px;
+
+}
+
+.icon-bar {
+    transition: opacity, transform;
+    transition-duration: 0.15s;
+    transition-timing-function: cubic-bezier(0.7, 0, 0, 0.7);
+    display: block;
+    width: 27px;
+    height: 4px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    background-color: #014e7a;
+}
+
 
 .nav-link{
     transform: translatex(10%);
@@ -35,7 +61,7 @@ nav img {
 }
 
 #textoMain{
-    padding-left: 10vw;
+    padding-left: 15vw;
 }
 
 
@@ -104,6 +130,14 @@ nav img {
     background-color: #00a988;
     border-radius: 0px;
     border-style:none;
+    
+}
+
+#contactbnt{
+    width: 100px;
+    background-color: #00a988;
+    border-radius: 0px;
+    border-style:none;
 }
 
 #imagen {
@@ -122,3 +156,22 @@ nav img {
 .card-group b > p {
     font-size: large;
 }
+
+
+@media screen and (min-width: 1500px) and (max-width: 1682px){
+   #textoMain{
+       padding-left: 300px;
+   }
+}
+
+@media screen and (min-width: 1682px) and (max-width: 1810px){
+    #textoMain{
+        padding-left: 400px;
+    }
+ }
+
+ @media screen and (min-width: 1810px) and (max-width: 1920px){
+    #textoMain{
+        padding-left: 450px;
+    }
+ }

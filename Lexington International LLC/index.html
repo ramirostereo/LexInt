@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <tile>Lexington International LLC</tile>
+ 
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -16,45 +16,50 @@
 
 <!--Header-->
         <header>
-            <nav class="navbar navbar-expand-md fixed-top">
-                <div class="container col-sm-6 col-md-6 col-xl-6">
+            <nav class="navbar navbar-expand-md sticky-top bg-white">
+                <div class="container">
                     <a class="navbar-brand" href="#home">
-                        <div id="logo">
-                            <img class="img-fluid" src="./img/jpg/logo lexington.jpeg">
-                        </div>
+                        <img class="lex-logo" src="./img/jpg/logo lexington.jpeg">
                     </a>
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="sr-only">Toggle navigation</span>
+                    </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <ul class="navbar-nav ml-md-auto">
-                            <li class="nav-item">
+                            <li class="nav-item d-flex justify-content-center">
                                 <a class="nav-link active smoothScroll" href="#cloud">CLOUD</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item d-flex justify-content-center">
                                 <a class="nav-link smoothScroll" href="#dataCenter">DATACENTER</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item d-flex justify-content-center">
                                 <a class="nav-link smoothScroll" href="#platforms">PLATFORMS</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item d-flex justify-content-center">
                                 <a class="nav-link smoothScroll" href="#services">SERVICES</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link btn btn-success smoothScroll" href="#contact" tabindex="-1" aria-disabled="true" id="submit">Contact us</a>
+                            <li class="nav-item d-flex justify-content-center">
+                                <a class="nav-link btn btn-success smoothScroll" href="#contact" tabindex="-1" aria-disabled="true" id="contactbnt">Contact us</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
+
         </header>
 
         <!-- Main -->
 
         <section id="home">
-                <div class="row d-flex align-items-center col-12 text-left">
-                    <div id="textoMain" class="col-sm-6 col-md-6 col-xl-6">
+                <div class="row d-flex align-items-center text-left">
+                    <div id="textoMain" class="col-sm-8 col-md-7 col-xl-6">
                         <h2>Lexington international LLC</h2>
                         <h6>Lexington international Cloud is a on-cloud services suite which includes use of virtual servers, blueprints, network, and application services in a multi-tenant service data centre environment.Lexington international provides the infrastructure, including space and power, compute resources, storage resources, Operating system based Virtualization, networking resources and use of a Console and API manager for provisioning and management.</h6>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-xl-6">
+                    <div class="col-sm-4 col-md-5 col-xl-6">
                         <img class="img-fluid" src="./img/jpg/OAYTDM0.jpg">
                     </div>
                 </div>
@@ -440,10 +445,10 @@
                                         <textarea type="text" class="form-control" id="comments" placeholder="Your message" aria-describedby="emailHelp" data-error="Please complete this mandatory field." data-pattern-error="This message is not valid." required></textarea>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
+                        </div>
+                            <div class="row text-right">
                                 <!--HACER RESPONSIVE EL BOTON CON MEDIA QUERYS-->
-                                <div class="col-sm-6 col-md-6 col-lg-6">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
                                     <button id="submit" type="submit" class="btn btn-primary mb-2">Send</button>        
                                 </div>
                             </div>
