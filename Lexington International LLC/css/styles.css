@@ -45,3 +45,12 @@ left: 0;
     width: 100%;
 }
 
+
+.image {
+    width: 250px;
+    position: relative;
+    left: 420px;
+    top: 15px;
+    bottom: 40px;
+}
+
