@@ -34,11 +34,15 @@ nav img {
     margin: 20px;
 }
 
+#textoMain{
+    padding-left: 10vw;
+}
+
 
 #home{
     position: relative;
-    padding-top: 10vw;
-    padding-bottom: 5vw;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
 }
 
 #home h2 {
@@ -47,10 +51,11 @@ nav img {
 
 #imagenMain{    
     position: relative;
+    width: 107%;
+    height: 120%;
 }
 
 #imagenMain img{
-    width: 100%;
     height: auto;
 }
 
