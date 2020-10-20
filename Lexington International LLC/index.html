@@ -38,7 +38,7 @@
                                 <a class="nav-link smoothScroll" href="#services">SERVICES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link btn btn-success smoothScroll" href="#contact" tabindex="-1" aria-disabled="true">Contact us</a>
+                                <a class="nav-link btn btn-success smoothScroll" href="#contact" tabindex="-1" aria-disabled="true" id="submit">Contact us</a>
                             </li>
                         </ul>
                     </div>
@@ -49,11 +49,13 @@
         <!-- Main -->
 
         <section id="home">
-            <div class="fondo"></div>
             <div class="container text-left text-black">
-                <div class="row">
+                <div class="row d-flex col-6 text-left">
                         <h2>Lexington international LLC</h2>
                         <h7>Lexington international Cloud is a on-cloud services suite which includes use of virtual servers, blueprints, network, and application services in a multi-tenant service data centre environment.Lexington international provides the infrastructure, including space and power, compute resources, storage resources, Operating system based Virtualization, networking resources and use of a Console and API manager for provisioning and management.</h7>
+                </div>
+                <div id="imagenMain">
+                    <img src="./img/jpg/OAYTDM0.jpg">
                 </div>
             </div>
         </section>
@@ -62,7 +64,9 @@
         <section id="cloud">
             <div class="container text-center text-white">
                 <div class="d-flex col-12 m-5 p-4 text-left">
-                    <img src="./img/png/Cloud server.png">
+                    <div class="imagenCloud">
+                        <img src="./img/png/Cloud server.png">
+                    </div>
                     <div class="p-4">
                         <h2>Cloud</h2>
                         <p>Lexington International Private Cloud on VMware Cloud Foundation™ is Lexington international unified Software-Defined Data Center (SDDC) update to the Lexington international Dedicated Cloud Compute private cloud service employing the latest generation of data center technology to enable a new breed of IT services that power the digital age.</p>
@@ -80,64 +84,68 @@
                         <div class="mt-5 text-left">
                             <ul>
                                 <li class="p-3">
-                                    <img src="./img/png/arrow-icon.png">
-                                    Fully featured Software Defined Data Center as a service.
+                                    <img src="./img/png/arrow-icon.png" class="imagenIzq">
+                                    <p>Fully featured Software Defined Data Center as a service.</p>
                                 </li>
                                 <li class="p-3">
-                                    <img src="./img/png/arrow-icon.png">
-                                    Support for CenturyLink Managed Services Anywhere, enabled by Cloud Application Manager.
+                                    <img src="./img/png/arrow-icon.png" class="imagenIzq">
+                                    <p>Support for CenturyLink Managed Services Anywhere, enabled by Cloud Application Manager.</p>
                                 </li>
                                 <li class="p-3">
-                                    <img src="./img/png/arrow-icon.png">
-                                    Leverages CenturyLink’s cloud experience, with 100,000 virtual machines under management.
+                                    <img src="./img/png/arrow-icon.png" class="imagenIzq">
+                                    <p>Leverages CenturyLink’s cloud experience, with 100,000 virtual machines under management.</p>
                                 </li>
                                 <li class="p-3">
-                                    <img src="./img/png/arrow-icon.png">
-                                    Fully private hyper-converged infrastructure based on VMware Cloud Foundation and HP ProLiant hardware.
+                                    <img src="./img/png/arrow-icon.png" class="imagenIzq">
+                                    <p>Fully private hyper-converged infrastructure based on VMware Cloud Foundation and HP ProLiant hardware.</p>
                                 </li>
                                 <li class="p-3">
-                                    <img src="./img/png/arrow-icon.png">
-                                    Available around the world.
+                                    <img src="./img/png/arrow-icon.png" class="imagenIzq">
+                                    <p>Available around the world.</p>
                                 </li>
                                 <li class="p-3">
-                                    <img src="./img/png/arrow-icon.png">
-                                    VMware vSphere management.
+                                    <img src="./img/png/arrow-icon.png" class="imagenIzq">
+                                    <p>VMware vSphere management.</p>
                                 </li>
                                 <li class="p-3">
-                                    <img src="./img/png/arrow-icon.png">
-                                    vSAN SSD storage
+                                    <img src="./img/png/arrow-icon.png" class="imagenIzq">
+                                    <p>SAN SSD storage</p>
                                 </li>
                                 <li class="p-3">
-                                    <img src="./img/png/arrow-icon.png">
-                                    VMware NSX micro-segmentation with “bring your own IP” capabilities.
+                                    <img src="./img/png/arrow-icon.png" class="imagenIzq">
+                                    <p>VMware NSX micro-segmentation with “bring your own IP” capabilities.</p>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </row>
                 <div class="row">
-                            <div class="d-flex col-12 m-5 p-4 text-left">
-                                <img src="./img/png/001-private.png">
-                                <div class="col-8 p-4">
+                            <div class="d-flex col-12 mt-4 mb-3 p-4 text-left">
+                                <div class="imagenCloud">
+                                    <img src="./img/png/001-private.png">
+                                </div>
+                                <div class="col-8 p-2">
                                     <h2>Private</h2>
                                 <p>
                                     It is cloud infrastructure operated only for a single organization. It can be managed internally or by a third party, and hosted either internally or externally.
                                     It’s security is managed internally in order to prevent serious vulnerabilities. It has some special thing to be taken into consideration. 
                                 </p>
-                                <ul>
-                                    <li>
-                                        Allocations of space
-                                    </li>
-                                    <li>
-                                        Hardware
-                                    </li>
-                                    <li>
-                                        Environmental controls. 
-                                    </li>
-                                </ul>
+                                <div class="dots">
+                                    <ul>
+                                        <li>
+                                            Allocations of space
+                                        </li>
+                                        <li>
+                                            Hardware
+                                        </li>
+                                        <li>
+                                            Environmental controls. 
+                                        </li>
+                                    </ul>
+                                </div>    
                                 </div>
                             </div>
-                            <div class="col-10 p-4 text-left">
+                            <div class="col-10 mb-5 p-2 text-left">
                                 <p>
                                     We offer single tenant cloud servers for critical computing applications.
                                 </p>
@@ -154,16 +162,18 @@
                 </div>
                 <hr/>
                 <div class="row">
-                        <div class="d-flex col-12 m-5 p-4 text-left">
+                        <div class="d-flex col-12 mb-3 p-4 text-left">
+                            <div class="imagenCloud">
                                 <img src="./img/png/002-cloud.png">
-                                <div class="col-6 p-4">
-                                    <h2>Public</h2>
-                                    <p>
-                                        We have Public Cloud services over the public Internet, making them available to anyone who wants to use or purchase them. You can use them on-demand, and be able to pay only per usage for the CPU cycles, storage, or bandwidth you consume.
-                                    </p> 
-                                </div>
+                            </div>
+                            <div class="col-6 p-2">
+                                <h2>Public</h2>
+                                <p>
+                                    We have Public Cloud services over the public Internet, making them available to anyone who wants to use or purchase them. You can use them on-demand, and be able to pay only per usage for the CPU cycles, storage, or bandwidth you consume.
+                                </p> 
+                            </div>
                         </div> 
-                        <div class="col-10 p-4 text-left">
+                        <div class="col-10 mb-5 p-2 text-left">
                             <p>
                                 You can save lots of money  by not having to purchase, manage, and maintain on-premises hardware and application infrastructure 
                             </p>
@@ -177,17 +187,19 @@
                 </div>
                 <hr/>
                 <div class="row">
-                        <div class="d-flex col-12 m-5 p-4 text-left">                                                                                      
-                                    <img src="./img/png/Grupo 114.png">
-                                    <div class="col-8 p-4">
-                                        <h2>Hybrid</h2>
-                                        <p>
-                                        Hybrid cloud is a composition of a public cloud and a private environment, such as a private cloud or on-premises resources, that remain distinct entities but are bound together, offering the benefits of multiple deployment models. This is an excellent choice if you need your 
-                                        service across isolation and provider boundaries.    
-                                        </p>    
-                                    </div>               
+                        <div class="d-flex col-12 mb-3 p-4 text-left">     
+                            <div class="imagenCloud">
+                                <img src="./img/png/Grupo 114.png">
+                            </div>                                                                                 
+                            <div class="col-8 p-2">
+                                <h2>Hybrid</h2>
+                                <p>
+                                Hybrid cloud is a composition of a public cloud and a private environment, such as a private cloud or on-premises resources, that remain distinct entities but are bound together, offering the benefits of multiple deployment models. This is an excellent choice if you need your 
+                                service across isolation and provider boundaries.    
+                                </p>    
+                            </div>               
                         </div>
-                        <div class="col-10 p-4 text-left">
+                        <div class="col-10 mb-5 p-2 text-left">
                             <p>
                                 You may store sensitive data in house on a private cloud application, but interconnect that application to a business intelligence application provided on a public cloud as a software service.
                             </p>
@@ -354,40 +366,40 @@
                 <section id="services">
                     <div class="container">
                         <div class="row">
-                            <div class="col-12 mt-5 mb-5 p-1 text-left">
+                            <div class="col-12 mt-5 mb-5 text-left">
                                     <h2>Services</h2>
                                 <div class="mt-5 text-left">
                                     <ul>
                                         <li>
-                                            <img src="./img/png/check-icon.png">
+                                            <img src="./img/png/check-icon.png" class="imagenIzq">
                                             <p> Enterprise Level Security: Multi-layer protection for systems & data</p>
                                         </li>
                                         <li>
-                                            <img src="./img/png/check-icon.png">
+                                            <img src="./img/png/check-icon.png" class="imagenIzq">
                                             <p> High Performance: Optimized throughout the stack for speed</p>
                                         </li>
                                         <li>
-                                            <img src="./img/png/check-icon.png">
+                                            <img src="./img/png/check-icon.png" class="imagenIzq">
                                             <p> Global Footprint: Deploy in 14 data centres around the world</p>
                                         </li>
                                         <li>
-                                            <img src="./img/png/check-icon.png">
+                                            <img src="./img/png/check-icon.png" class="imagenIzq">
                                             <p> Compliant and Audited: Our data centres are SSAE16 SOC2 Type 2 certified</p>
                                         </li>
                                         <li>
-                                            <img src="./img/png/check-icon.png">
+                                            <img src="./img/png/check-icon.png" class="imagenIzq">
                                             <p>Disaster Recovery: Built-in DR reinforces our redundant infrastructure</p>
                                         </li>
                                         <li>
-                                            <img src="./img/png/check-icon.png">
+                                            <img src="./img/png/check-icon.png" class="imagenIzq">
                                             <p> High Availability: Superior uptime with load balancing & redundancy</p>
                                         </li>
                                         <li>
-                                            <img src="./img/png/check-icon.png">
+                                            <img src="./img/png/check-icon.png" class="imagenIzq">
                                             <p> Outstanding Support: Our support team is standing by 24x7</p>
                                         </li>
                                         <li>
-                                            <img src="./img/png/check-icon.png">
+                                            <img src="./img/png/check-icon.png" class="imagenIzq">
                                             <p> Managed Services: Experts to monitor your apps, 24x7</p>
                                         </li>
                                     </ul>
