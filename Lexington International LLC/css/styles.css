@@ -49,8 +49,12 @@ left: 0;
     width: 100%;
 }
 
+.description {
+    color: #02466c;
+}
 
-.image {
+
+.imageMain {
     width: 250px;
     position: relative;
     left: 420px;
@@ -66,3 +70,21 @@ left: 0;
     color:white;
     background-color: #027fc7;
 }
+.imageSub {
+    width: 150px;
+    align-items: flex-end;
+}
+
+#contact{
+    background-color: #014e7a;
+    color: white;
+}
+
+#comments{
+    height:148px;
+}
+
+#submit{
+    width: 175px;
+}
+
