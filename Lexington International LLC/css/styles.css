@@ -29,6 +29,11 @@ nav img {
     height: 50px;
 }
 
+.nav-link{
+    transform: translatex(10%);
+    margin: 20px;
+}
+
 
 #home{
     position: relative;
@@ -57,14 +62,16 @@ nav img {
 }
 
 .card-body{
-    border-radius: 2px;
+    
     color: #02466c;
-    border-right: 4px solid #00a988;
+    border-right: 2.5px solid #00a988;
+    margin-top: 0.8%;
+    margin-bottom: 0.8%;
     
 }
 
 .text-card{
-    padding-left: 5em;
+    padding-left: 2em;
 }
 
 .description {
