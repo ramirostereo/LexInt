@@ -49,8 +49,21 @@ left: 0;
     width: 100%;
 }
 
+.card-body{
+    border-radius: 2px;
+    color: #02466c;
+    border-right: 4px solid #00a988;
+    
+}
+
+.text-card{
+    padding-left: 5em;
+}
+
 .description {
     color: #02466c;
+    font-weight: bold;
+    
 }
 
 
@@ -66,6 +79,10 @@ left: 0;
     background-color: #dcfff8;
 }
 
+#platforms h2{
+    color: #014e7a;
+}
+
 #services {
     color:white;
     background-color: #027fc7;
@@ -73,6 +90,7 @@ left: 0;
 .imageSub {
     width: 150px;
     align-items: flex-end;
+    
 }
 
 #contact{
